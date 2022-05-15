@@ -1,0 +1,26 @@
+@import "config";
+@import "card";
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background: $red;
+  color: white;
+
+  i {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
